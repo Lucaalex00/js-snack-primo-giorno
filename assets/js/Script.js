@@ -17,14 +17,14 @@ console.log(PI)
 //ESERCIZIO 2C ---> Number Value
 
 let radius = 8;
-let circle = (radius * 2) * PI
-console.log(circle)
+let circle = (radius * 2) * PI;
+console.log(circle);
 
 //ESERCIZIO 2C ---> String Value
 
-let name = "Carlo"
-name = "Marco"
-console.log(name)
+let name = "Carlo";
+name = "Marco";
+console.log(name);
 
 // IN QUESTA SCHERMATA "NAME" Rinominata la seconda volta risulta deprecata
 // Causa variabile globale con speciali utilizzi.
@@ -32,9 +32,13 @@ console.log(name)
 //SOLUZIONE BONUS
 
 !(function () {
-    let name = "Carlo"
-    name = "Marco"
-    name = "Fabio Pacifici"
-    console.log(name)
+    let name = "Carlo";
+    name = "Marco";
+    name = "Fabio Pacifici";
+    console.log(name);
 })()
 
+
+
+//BONUS
+document.getElementById("ee").innerHTML = "Sono un uovo di pasqua :)";
