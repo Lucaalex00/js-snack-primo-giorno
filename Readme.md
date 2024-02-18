@@ -44,3 +44,28 @@ Successivamente modifica il valore della variabile in "Marco"
 Stampa il valore della variabile in console
 -   creo il console.log tra parentesi tonde la variabile "NAME"
 
+# Esercizio 4
+Dichiara una variabile chiamata "TEMPERATURE" e assegnale il valore "22.5"
+    - Creo la variabile utilizzando let temperature= 22.5
+    - Eseguo un operazione matematica di 22.5 sulla variabile temperature
+
+# Esercizio 5
+il valore 3.14 è decimale e ha due cifre oltre il numero, 100 è un numero finito senza il decimale.
+    - usa il comando toFixed(x) per mostrare n valori dopo il numero finito.
+
+# Esercizio 6
+
+La differenza fra console.log e TUTTI gli altri comandi per la console è semplicemente l'utilizzo in sè per sè.
+Perchè se dovessi utilizzare sempre console.log anche per mandare messaggi al programmatore che deve visualizzare la pagina, ci sarebbe confusione e poca chiarezza nel codice.
+console.log manda variabili e oggetti di qualsivoglia tipo quali variabili e non.
+console.info è utilizzato solo per messaggi permanenti.
+
+Esistono altri metodi :
+
+
+    - console.debug("debug"); // Likely hidden by Default
+      console.info("info"); // Send an info Command to console
+      console.error("error"); // Send an Error Command to console
+      console.warn("warn"); // Send an Warning Command to console
+      console.log("log");// Stamp an Command on console
+
